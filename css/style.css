@@ -137,9 +137,21 @@ ul {
   font-size: 14px;
   line-height: calc(24 / 14);
 }
+.logo-footer {
+  color: var(--white-txt-cl);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+.logo-footer-web {
+  color: var(--actionaly-txt-cl);
+}
 /* Адреса на карті  */
 .adress {
   color: var(--white-txt-cl);
+  font-style: normal;
 }
 .adress:hover,
 .adress:focus {
