@@ -79,7 +79,7 @@ ul {
 }
 .hero-btn {
   cursor: pointer;
-  font-style: inherit;
+  font-family: inherit;
   background: var(--actionaly-txt-cl);
   color: var(--white-txt-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
