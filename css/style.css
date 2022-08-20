@@ -10,11 +10,13 @@
   --primaty-bg-cl: #f5f5f5;
   --secondary-bg-cl: #f5f4fa;
   --actionaly-bg-cl: #2f303a;
+  --main-bg-cl:#ffffff;
+  --active-btn-cl:#188CE8;
   /* Others */
 }
 /* Body */
 .page {
-  background: var(--primaty-bg-cl);
+  background: var(--main-bg-cl);
   color: var(--primary-txt-cl);
 
   font-family: Roboto, sans-serif;
@@ -76,10 +78,23 @@ ul {
   color: var(--white-txt-cl);
 }
 .hero-btn {
+  cursor: pointer;
+  font-style: inherit;
   background: var(--actionaly-txt-cl);
   color: var(--white-txt-cl);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+  background: var(--active-btn-cl);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* Specias */
+.features{
+  background:var(--primaty-bg-cl);
+}
 .features-title {
   opacity: 0;
 }
@@ -136,6 +151,7 @@ ul {
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: calc(24 / 14);
+  
 }
 .logo-footer {
   color: var(--white-txt-cl);
@@ -149,9 +165,9 @@ ul {
   color: var(--actionaly-txt-cl);
 }
 /* Адреса на карті  */
+.footer-adress{font-style: normal;}
 .adress {
   color: var(--white-txt-cl);
-  font-style: normal;
 }
 .adress:hover,
 .adress:focus {
@@ -179,12 +195,16 @@ ul {
 }
 /* Кнопки + ховел і фокус  */
 .portf-button {
+  cursor: pointer;
+  font-family : inherit;
   background: var(--secondary-bg-cl);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .portf-button:hover,
 .portf-button:focus {
