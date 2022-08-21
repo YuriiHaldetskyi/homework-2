@@ -96,9 +96,6 @@ ul {
   border-radius: 4px;
 }
 /* Specias */
-.features{
-  background:var(--main-bg-cl);
-}
 .features-title {
   opacity: 0;
 }
