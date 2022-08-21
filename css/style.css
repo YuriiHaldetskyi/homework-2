@@ -80,6 +80,10 @@ ul {
 .hero-btn {
   cursor: pointer;
   font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
   background: var(--actionaly-txt-cl);
   color: var(--white-txt-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -93,7 +97,7 @@ ul {
 }
 /* Specias */
 .features{
-  background:var(--primaty-bg-cl);
+  background:var(--main-bg-cl);
 }
 .features-title {
   opacity: 0;
@@ -185,7 +189,7 @@ ul {
 /* CSS for Portfolio  */
 /* Обгорнув у посилання, як Саша Репета рекомендував */
 .portf {
-  background: var(--primaty-bg-cl);
+  background: var(--main-bg-cl);
   color: var(--primary-txt-cl);
   letter-spacing: 0.03em;
 }
